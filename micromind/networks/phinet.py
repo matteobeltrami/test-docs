@@ -427,7 +427,7 @@ class PhiNet(nn.Module):
         """Loads parameters from checkpoint through Hugging Face Hub.
         This function constructs two strings, "repo_dir" to find the model on Hugging
         Face Hub and "file_to_choose" to select the correct file inside the repo, and
-        use them to download the pretrained model and initialize the PhiNet.
+        use them to download the pretrained model and initialize the PhiNet. prova
 
         Arguments
         ---------
